@@ -1,0 +1,30 @@
+
+{% include 'headforms.html' %}
+{% include 'navindexform.html' %}
+<body>
+    <form class="formulario" action ="/login" method="POST">
+        
+        <h1>Hola de vuelta</h1>
+        <h2>Inicia sesion para superar tu retos de hoy</h2>
+        <div class="contenedor"> 
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Codigo Estudiantil" requered name="code">
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" required name="password">
+            </div>
+            <h2 style="padding: 0;"><input type="checkbox" name="condiciones" checked="checked">Acepto las condiciones</h2><br/>
+            <div class="box">
+                <button class="button" type="submit">Iniciar sesion</button>
+            </div>
+            </form>
+            
+            <p>No tienes una cuenta?<a class="link" href="/signup" style="color: blue;">Registrarse</a></p>
+        </div>
+    </form>
+</body>
+      
+
+{% include 'footerindexyforms.html' %}

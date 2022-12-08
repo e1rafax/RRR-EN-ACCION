@@ -1,0 +1,58 @@
+
+{% include 'headforms.html' %}
+{% include 'navindexform.html' %}
+    <form class="formulario" action="/signup" method="POST">
+
+
+        <h1> Bienvenido</h1>
+        <h2>Registrate para comenzar a superar los retos del reciclaje</h2>
+
+        <div class="contenedor">
+
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre Completo" required name="fullname">
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-id-card icon"></i>
+                <input type="text" placeholder="Codigo Estudiantil" required name="code">
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-venus-mars icon"></i>
+                <input type="text" placeholder="Genero" required name="gender">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico" required name="email">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" required name="password">
+            </div>
+            </form>
+    <h2 style="padding: 0;"><input type="checkbox" name="condiciones" checked="checked">Acepto las condiciones</h2>
+    <div class="porcentajes">
+        <div class="box">
+            <button class="button">Registrarse</button>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2 style="font-size: 3rem;">FELICIDADES HAS QUEDADO REGISTRADO CORRECTAMENTE!</h2>
+                <div class="content">
+                    <h1 style="font-size: 2rem; ">Ahora dale a empezar y supera los retos para cuidar el planeta.</h1>
+                </div>
+                <form class="button">
+                    <input type="submit" value="Empezar" class="butp">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="pie">
+        <p>¿Ya tienes una cuenta? <a class="link" href="/login">Iniciar Sesion </a></p>
+    </div>
+    </div>
+    </body>
+    
+{% include 'footerindexyforms.html' %}

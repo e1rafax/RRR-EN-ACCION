@@ -1,0 +1,167 @@
+.fondo_puntos {
+    background-image: url("/static/Imagenes/economia-circular-BBVA-reciclaje-ropa-sostenibilidad.jpg");
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2.5rem;
+}
+
+.button {
+    width: 100%;
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+    border-color: black;
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background: rgb(113, 206, 128);
+}
+
+.but:hover {
+    background: rgb(113, 206, 128);
+}
+
+.but {
+    width: 100%;
+    font-size: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(252, 252, 252);
+}
+
+
+
+.cabeza img {
+    width: 800px;
+}
+
+.Puntos {
+    height: 800px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Puntos h2 {
+    padding: 1rem;
+}
+
+.imagenes img {
+    width: 200px;
+}
+
+.imagenes a {
+    padding: 2.5rem;
+}
+
+.Botones {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.User img {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.PrincipalS {
+    padding: 1rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.porcentajes {
+    padding: 2rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+
+.retos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.retos img {
+    width: 150px;
+    padding: 0.2rem;
+    max-width: 100rem;
+}
+
+.retos h2 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.retos h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2rem;
+    font-size: 2rem;
+
+}
+.red{
+
+color:red;
+   
+}
+
+
+.back1 {
+
+    background-image: url("Imagenes/Principal persona agregar.png");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.back2 {
+
+    background-image: url("Imagenes/Papelera principal.png");
+  
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+.back3 {
+
+    background-image: url("Imagenes/Caja de carton Principal.png");
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.back4 {
+
+    background-image: url("Imagenes/Latas principal.png");
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.back5 {
+
+    background-image: url("Imagenes/Botellas plasticas principal.png");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

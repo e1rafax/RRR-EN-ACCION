@@ -1,0 +1,99 @@
+.box{
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.box a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botpop {
+    width: 100%;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(252, 252, 252);
+    padding: 15px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: black;
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-out;
+}
+
+.botpop:hover {
+    background: rgb(113, 206, 128);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    height: auto;
+    position: relative;
+    transition: all 2s ease-in-out;
+    margin-top: 25rem;
+}
+
+.popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+        text-align: center;
+}
+
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+.butp:hover {
+    background: rgb(19, 92, 29);
+}
+
+.butp {
+    border: none;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: rgb(113, 206, 128);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}

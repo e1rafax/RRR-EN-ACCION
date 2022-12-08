@@ -1,0 +1,91 @@
+
+{% include 'headuser.html' %}
+
+<body class="fondo_puntos">
+    <section class="PrincipalS">
+        <div class="Puntos">
+            <div class="cabeza">
+                <img src="/static/Imagenes/RRR EN ACCION blanco.png" alt="">
+            </div>
+            <h2>ESTOS SON TUS RETOS DEL DIA!</h2>
+
+
+
+            <div class="retos">
+
+                <img src="/static/Imagenes/Papelera principal.png" alt="">
+                <h3>Recolecta 5 hojas de papel</h3>
+                <h3 class="red">5 ptos</h3>
+            </div>
+
+            <div class="retos">
+                <img src="/static/Imagenes/Caja de carton Principal.png" alt="">
+                <h3>Recolecta 1 caja de Carton</h3>
+                <h3 class="red">20 ptos</h3>
+            </div>
+
+            <div class="retos">
+                <img src="/static/Imagenes/Latas principal.png" alt="">
+                <h3>Recolecta 2 latas</h3>
+                <h3 class="red"> 10 ptos</h3>
+            </div>
+
+            <div class="retos">
+                <img src="/static/Imagenes/Botellas plasticas principal.png" alt="">
+                <h3>Recolecta 5 botellas plasticas</h3>
+                <h3 class="red">30 ptos</h3>
+            </div>
+
+            <!--LOS PUNTOS SE DAN POR MEDIO DE LA BASE DE DATOS-->
+
+        </div>
+
+        </div>
+        <div class="Botones">
+            <div>
+                <div class="User">
+                    <a href="/perfil/{{code}}"><img src="/static/Imagenes/USER.png" alt=""></a>
+                    <h1 style="margin_left: 10px">
+                        {{fullname}}
+                    </h1>
+                </div>
+        
+                <div class="porcentajes">
+        
+                    <form class="button" action="/perfil/{{code}}">
+                        <input type="submit" value="Mi Perfil" class="but">
+                    </form>
+                </div>
+        
+                <div class="porcentajes">
+                    <form class="button" action="/retos/{{code}}">
+                        <input type="submit" value="Nuevos Retos" class="but">
+                    </form>
+                </div>
+        
+                <div class="porcentajes">
+                    <form class="button" action="/puntos/{{code}}">
+                        <input type="submit" value="Mis Puntos" class="but">
+                    </form>
+                </div>
+                <div class="porcentajes">
+                    <div class="box">
+                        <a class="botpop" href="#popup1">Cerrar sesion</a>
+                    </div>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>ADIÓS VUELVE PRONTO!</h2>
+                            <form class="button" action="/Logout" method="POST" >
+                                <input type="submit" value="Salir" class="butp">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+</footer>
+
+</html>
